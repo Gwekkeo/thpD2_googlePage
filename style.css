@@ -40,17 +40,22 @@ img{
 	width: 100px;
 }
 
+
 /*
 	MAIN
 */
 
 #logo_google{
-	margin-left: 37.5%;
-	width: 25%;
+	margin-top: 0px;
+	margin-left: 35.5%;
+	width: 30%;
 }
 
+
 #interieur{
-	background-color: cyan;
+	height: 100%;
+	padding-top: 150px;
+	margin-top: 0px;
 }
 
 
@@ -76,12 +81,13 @@ footer{
 	width: 100%;
 	bottom: 0;
 	padding: 10px;
-	background-color: #DCDCDC;
+	background-color:  	#E6E6FA	;
+	border-top: solid 1px grey;
 }
 
 #localisation{
-	margin-left: 30px;
-	padding: 10px 0 10px 0;
+	padding: 10px 0 10px 30px;
+	border-bottom: solid 1px grey;
 }
 #about{
 	margin-left: 30px;
@@ -98,4 +104,34 @@ footer{
 #droite{
 	display: flex;
 	justify-content: space-between;
+}
+
+#barre_search{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+#search{
+	width: 60%;
+	height: 35px;
+	box-shadow: 0px 1px 1px grey;	
+}
+#search:hover, #search:focus{
+	box-shadow: 0px 2px 2px grey;
+}
+/*
+	PADDING ->		marge INTERIEUR
+	MARGIN  ->		marge EXTERIEUR
+*/
+#bouton_search{
+	text-align: center;
+	height: 200px;
+	padding: 20px;
+}
+
+.buttonbas{
+	background-color: #E6E6FA;
+	color:black;
+	padding : 8px;
+	border : none;
 }
