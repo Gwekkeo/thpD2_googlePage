@@ -42,8 +42,13 @@ img{
 	MAIN
 */
 
-.interieur{
-	background-color: red;
+#logo_google{
+	margin-left: 25%;
+	width: 50%;
+}
+
+#interieur{
+	background-color: cyan;
 }
 
 
@@ -66,8 +71,19 @@ body{
 	MARGIN  ->		marge EXTERIEUR
 */
 footer{
-	width: 99%;
+	width: 100%;
 	bottom: 0;
 	padding: 10px;
 	background-color: #DCDCDC;
+}
+
+#localisation{
+	margin-left: 30px;
+	padding: 10px 0 10px 0;
+	border: solid cyan 1px;
+}
+#about{
+	margin-left: 30px;
+	padding: 10px 0 10px 0;
+	border: solid red 1px;
 }
