@@ -125,7 +125,6 @@ footer{
 */
 #bouton_search{
 	text-align: center;
-	height: 200px;
 	padding: 20px;
 }
 
@@ -139,4 +138,12 @@ footer{
 	color: black;
 	border : solid 1px grey;
 	box-shadow: none;
+}
+
+
+#dispo_langue{
+	text-align: center;
+}
+.color_violet{
+	color: purple;
 }
