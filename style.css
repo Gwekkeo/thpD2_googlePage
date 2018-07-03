@@ -105,12 +105,10 @@ footer{
 
 #gauche{
 	display: flex;
-	justify-content: space-between;
 }
 
 #droite{
 	display: flex;
-	justify-content: space-between;
 }
 
 #barre_search{
