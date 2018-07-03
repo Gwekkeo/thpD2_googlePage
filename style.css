@@ -9,6 +9,7 @@
 #conteneur{
 	display: flex;
 	justify-content: flex-end;
+	padding : 13px;
 }
 
 .element{
@@ -34,6 +35,7 @@ a:hover{
 img{
 	width: 35px;
 }
+
 #connect{
 	width: 100px;
 }
@@ -43,8 +45,8 @@ img{
 */
 
 #logo_google{
-	margin-left: 25%;
-	width: 50%;
+	margin-left: 37.5%;
+	width: 25%;
 }
 
 #interieur{
@@ -80,10 +82,20 @@ footer{
 #localisation{
 	margin-left: 30px;
 	padding: 10px 0 10px 0;
-	border: solid cyan 1px;
 }
 #about{
 	margin-left: 30px;
 	padding: 10px 0 10px 0;
-	border: solid red 1px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#gauche{
+	display: flex;
+	justify-content: space-between;
+}
+
+#droite{
+	display: flex;
+	justify-content: space-between;
 }
